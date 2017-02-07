@@ -1,0 +1,53 @@
+[
+    {
+        "name": "neverbounce/neverbounce-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/NeverBounce/NeverBounceAPI-PHP.git",
+            "reference": "5ca17408d096c28b3544256c28bda671facbbd0c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/NeverBounce/NeverBounceAPI-PHP/zipball/5ca17408d096c28b3544256c28bda671facbbd0c",
+            "reference": "5ca17408d096c28b3544256c28bda671facbbd0c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2016-12-02 16:55:13",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "NeverBounce\\API\\": "src/api/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ankur Pandit",
+                "email": "ankur@neverbounce.com"
+            },
+            {
+                "name": "Michael Mollick",
+                "email": "mike@neverbounce.com"
+            }
+        ],
+        "description": "This package provides convenient methods to integrate the NeverBounce API into your project.",
+        "homepage": "https://neverbounce.com",
+        "keywords": [
+            "email",
+            "email validation",
+            "validation",
+            "verification"
+        ]
+    }
+]

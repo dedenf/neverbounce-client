@@ -1,0 +1,5 @@
+{
+    "require": {
+        "neverbounce/neverbounce-php": "dev-master"
+    }
+}

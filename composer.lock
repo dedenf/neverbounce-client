@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f7754aa27f9c12c1d9b73ddadae04562",
+    "content-hash": "703dbcf96854859d296816fec2d6eaf7",
+    "packages": [
+        {
+            "name": "neverbounce/neverbounce-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NeverBounce/NeverBounceAPI-PHP.git",
+                "reference": "5ca17408d096c28b3544256c28bda671facbbd0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NeverBounce/NeverBounceAPI-PHP/zipball/5ca17408d096c28b3544256c28bda671facbbd0c",
+                "reference": "5ca17408d096c28b3544256c28bda671facbbd0c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NeverBounce\\API\\": "src/api/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ankur Pandit",
+                    "email": "ankur@neverbounce.com"
+                },
+                {
+                    "name": "Michael Mollick",
+                    "email": "mike@neverbounce.com"
+                }
+            ],
+            "description": "This package provides convenient methods to integrate the NeverBounce API into your project.",
+            "homepage": "https://neverbounce.com",
+            "keywords": [
+                "email",
+                "email validation",
+                "validation",
+                "verification"
+            ],
+            "time": "2016-12-02 16:55:13"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "neverbounce/neverbounce-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
